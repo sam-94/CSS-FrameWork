@@ -10,6 +10,9 @@ body {
 a {
 	outline: none;
 }
+p{
+	text-align: justify;
+}
 
 /*Grid Layout*/
 .container {
@@ -204,6 +207,10 @@ a {
 .bgDark {
 	background: #000;
 }
+.bgLight
+{
+	background: #f3f3f3;
+}
 .bgPrimary{
 background: var(--green);
 }
@@ -273,4 +280,103 @@ form
     padding: 0 10px;
     margin: 15px 0;
     display: block;
+}
+/* Navbar */
+.nav{
+	display: flex;
+	list-style: none; 
+}
+.logo {
+    font-weight: bold;
+    font-size: 20px;
+}
+.navbar
+{
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+    padding: 5px 20px;
+}
+.navDark .navItem{
+	color: #fff;
+}
+.navLight .navItem{
+	color: #333;
+}
+.navItem
+{
+	float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-top: 7px;
+}
+.navItem:hover{
+	background: red;
+}
+.dropdown{
+	display: inline-block;
+	overflow: hidden;
+
+}
+.dropdown:hover{
+	background: red;
+}
+
+.dropdown .dropbtn {
+    border: none;
+    outline: none;
+    background: inherit;
+    cursor: pointer;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+    top: 60px;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.card {
+    position: relative;
+    display: inline-block;
+    width: calc(25% - 46px);
+    background: #fff;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 6px;
+    
+}
+@media (max-width: 1199px) {
+	.card
+	{
+		width: calc(50% - 46px);
+    }
+}
+@media (max-width: 991px) {
+	.card
+	{
+		width: calc(100% - 46px);
+}
 }
