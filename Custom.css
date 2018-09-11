@@ -359,7 +359,8 @@ form
 
 .card {
     position: relative;
-    display: inline-block;
+    display: inline-flex;
+    align-items: stretch;
     width: calc(25% - 46px);
     background: #fff;
     margin: 10px;
