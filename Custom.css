@@ -238,34 +238,43 @@ font-size: 20px;
 border-radius: 6px;
 }
 .btnPrimary{
-background: var(--green);
 color: #fff;
+border: 2px solid var(--green);
+background: var(--green);
 }
 .btnPrimary:hover{
-background: #56de56;
-color: #fff;
+background: none;
+color: var(--green);
 }
 .btnSecondary{
-background: var(--cyan);
 color: #fff;
+border: 2px solid var(--cyan);
+background: var(--cyan);
+
 }
 .btnSecondary:hover{
-background: #6cbbe0;
+background: none;
+color: var(--cyan);
 }
 .btnDark{
-background: #000;
 color: #fff;
+border: 2px solid #000;
+background: #000;
 }
 .btnDark:hover{
-background: #504e4e;
+background: none;
+color: #000;
 }
 .btnWarning{
-background: #ff5722;
 color: #fff;
+border: 2px solid #ff5722;
+background: #ff5722;
 }
 .btnWarning:hover{
-background: #ef754e;
+background: none;
+color: #ff5722;
 }
+
 /* Form */
 form
 {
