@@ -243,7 +243,7 @@ border-radius: 6px;
 .btnPrimary{
 background: none;
 color: var(--green);
-border: 2px solid var(--green);
+border: 1px solid var(--green);
 }
 .btnPrimary:hover{
 color: #fff;
@@ -252,7 +252,7 @@ background: var(--green);
 .btnSecondary{
 background: none;
 color: var(--cyan);
-border: 2px solid var(--cyan);
+border: 1px solid var(--cyan);
 }
 .btnSecondary:hover{
 color: #fff;
@@ -261,7 +261,7 @@ background: var(--cyan);
 .btnDark{
 background: none;
 color: #000;
-border: 2px solid #000;
+border: 1px solid #000;
 }
 .btnDark:hover{
 color: #fff;
@@ -269,7 +269,7 @@ background: #000;
 }
 .btnWarning{
 background: none;
-border: 2px solid #ff5722;
+border: 1px solid #ff5722;
 color: #ff5722;
 }
 .btnWarning:hover{
