@@ -492,7 +492,7 @@ td,th {
 .text-center {
 	text-align: center;
 }
-.main {
+.card-group {
 	display: flex;
 	padding: 20px 0;
 } 
