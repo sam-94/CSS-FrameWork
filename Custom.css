@@ -14,7 +14,7 @@
 *,
 *::before,
 *::after {
-         box-sizing: border-box;
+        box-sizing: border-box;
 }
 html{
     font-family: arial;
@@ -433,6 +433,8 @@ td,th {
     color: var(--dark);
     border: none;
     cursor: pointer;
+    -webkit-transition: .5s;
+    -ms-transition: .5s;
     transition: .5s;
     margin: 10px 0;
     border-radius: 5px;
@@ -509,9 +511,12 @@ td,th {
 	flex-basis: 0;
 }
 @media (max-width: 767px) {
-	.card-group{
+	.card-group {
 		display: block;
 		padding: 20px 0;
 	}
-
+}
+footer {
+	padding: 15px;
+	color: #fff;
 }
